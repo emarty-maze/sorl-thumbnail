@@ -3,6 +3,7 @@ from io import BytesIO
 from sorl.thumbnail.engines.base import EngineBase
 
 try:
+    import PIL
     from PIL import Image
     from PIL import ImageFile, ImageDraw, ImageFilter, ImageMode
 except ImportError:
